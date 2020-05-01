@@ -10,7 +10,8 @@
     "duplexer": "^0.1.1",
     "fbjs": "^1.0.0",
     "invariant": "^2.2.4",
-    "temp": "^0.8.3"
+    "temp": "^0.8.3",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "metro-memory-fs": "0.52.0",
@@ -18,6 +19,9 @@
   },
   "scripts": {
     "prepare-release": "test -d build && rm -rf src.real && mv src src.real && mv build src",
-    "cleanup-release": "test ! -e build && mv src build && mv src.real src"
-  }
+    "cleanup-release": "test ! -e build && mv src build && mv src.real src",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
