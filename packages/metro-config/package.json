@@ -17,6 +17,6 @@
     "metro": "0.52.0",
     "metro-cache": "0.52.0",
     "metro-core": "0.52.0",
-    "pretty-format": "24.0.0-alpha.6"
+    "pretty-format": "25.1.0"
   }
 }
