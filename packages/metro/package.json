@@ -43,7 +43,7 @@
     "metro-babel-register": "0.52.0",
     "metro-babel-transformer": "0.52.0",
     "metro-cache": "0.52.0",
-    "metro-config": "0.52.0",
+    "metro-config": "0.78.1",
     "metro-core": "0.52.0",
     "metro-minify-uglify": "0.52.0",
     "metro-react-native-babel-preset": "0.52.0",
