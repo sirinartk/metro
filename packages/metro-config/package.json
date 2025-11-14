@@ -13,8 +13,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "cosmiconfig": "^5.0.5",
-    "metro": "0.52.0",
+    "cosmiconfig": "^6.0.0",
+    "metro": "0.83.2",
     "metro-cache": "0.52.0",
     "metro-core": "0.52.0",
     "pretty-format": "24.0.0-alpha.6"
